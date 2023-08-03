@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 800px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+    border: 1px solid gray;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+.box1,.box2,.box3 {
+    padding: 1em;
+    border-radius: 1em;
+}
+
+.box1 {
+    background-color: blueviolet;
+}
+
+.box2 {
+    background-color: chartreuse;
+}
+
+.box3 {
+    background-color: chocolate;
+}
