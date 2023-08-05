@@ -1,0 +1,145 @@
+* {
+   margin: 0px;
+   box-sizing: border-box;
+   padding: 0px;
+}
+
+body {
+    background-color: hsl(36, 100%, 99%);
+}
+
+.container {
+    max-width: 1440px;
+    margin: 2em auto;
+}
+
+navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5em;
+}
+
+navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1.5em;
+    color: hsl(236, 13%, 42%);
+}
+
+
+section.main {
+    display: flex;
+    justify-content: space-around;
+    gap: 1.5em;
+}
+
+.hero-container {
+    flex-grow: 1;
+}
+
+.news-container {
+    flex-basis: 600px;
+    background-color: hsl(240, 100%, 5%);
+    color: white;
+    padding: 1.5em 1em;
+}
+
+.news-container h2 {
+    color: hsl(35, 77%, 62%);
+    margin-bottom: 1em;
+    font-size: 2rem;
+}
+
+.news-item h3 {
+    margin-top: 1em;
+}
+
+.news-item p {
+    color: hsl(233, 8%, 79%);
+    font-size: 0.8rem;
+    margin-top: 0.8em;
+    padding-bottom: 1.5em;
+    border-bottom: 1px solid rgba(135, 135, 135, 0.5);
+}
+
+.hero-image img {
+    width: 100%;
+}
+
+.top-news {
+    display: flex;
+    justify-content: space-around;
+    gap: 1em;
+    margin: 1em 0;
+}
+
+.top-news h1 {
+    font-size: 3rem;
+    flex: 1 1 0;
+}
+
+.top-news .top-news-details {
+    flex: 1 1 0;
+    color: hsl(236, 13%, 42%);
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    padding-top: 1em;
+}
+
+.top-news-details button {
+    align-self: flex-start;
+}
+
+button.primary {
+    padding: 1em 2em;
+    text-transform: uppercase;
+    color: hsl(36, 100%, 99%);
+    background-color: hsl(5, 85%, 63%);
+    border: 1px solid hsl(5, 65%, 52%);
+    font-weight: bold;
+    letter-spacing: .2em;
+}
+
+.top-picks {
+    margin-top: 2em;
+    display: flex;
+    gap: 1em;
+}
+
+.top-picks-item {
+    display: flex;
+    gap: 1em;
+}
+
+.top-picks-item .top-pick-img {
+    flex-grow: 1;
+    flex-basis: 300px;
+}
+
+.top-picks-item img {
+    width: 100%;
+    height: 100%;
+}
+
+.top-pick-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1em;
+}
+
+.top-pick-details h4 {
+    font-size: 2rem;
+    color: hsl(233, 8%, 79%);
+}
+
+.top-pick-details b {
+    font-size: 1.2rem;
+}
+
+.top-pick-details p {
+    color: hsl(236, 13%, 42%);
+}
